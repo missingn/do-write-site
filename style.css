@@ -1,5 +1,7 @@
-body{background-color :skyblue; }
-.hidden{display : none; font-size:50px;}
+body{background-color :skyblue;  
+   
+}
+.hidden{display : none; font-size:50px;  text-align: center;}
 img {
     position:absolute;
     width:100%;
@@ -11,4 +13,29 @@ img {
     z-index: -1;
     opacity:80%;
     }
-#quotes{ font-size:50px;}
+#quotes{ font-size:30px;
+        color : white;
+        
+       
+       
+        bottom:20px;  
+       text-align: center;
+}
+.quotes1 {    
+         
+}        
+
+#login-form{color : white;  text-align: center;
+            
+};
+
+#clock{ border-style: solid;text-align: center; margin: 0px; }
+
+#clockUse{ font-size:100px; color : white;  text-align: center;
+        margin: -80px; 
+}
+#weather {font-size:50px;}
+#button.reset {  text-align: center;}
+#todo-form{ }
+#whole { }
+#greeting {  text-align: center; font-size:50px; color : white;}
