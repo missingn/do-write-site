@@ -1,0 +1,59 @@
+body{background-color :skyblue;  
+   margin :0;
+   padding:0;
+}
+.hidden{display : none; font-size:50px;  text-align: center;}
+img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:80%;
+    display:inline-block;
+    }
+#quotes{ font-size:50px;
+        color : white;
+        
+       
+       
+        bottom:20px;  
+       text-align: center;
+}
+       
+
+#login-form{color : white;  text-align: center;
+            
+};
+
+#clock{ border-style: solid;text-align: center; margin: 0px; }
+
+#clockUse{ font-size:100px; color : white;  text-align: center;
+        margin: -100px 0;
+        
+}
+#weather {font-size:50px;   font-weight: 600;}
+#button.reset {  text-align: center;}
+
+#greeting {  text-align: center; font-size:50px; color : white;}
+
+#whole {
+        position: relative;
+}
+#todo-form{
+       margin-left:20px;
+        width :200px;
+        height :100px;
+}
+
+#todo-list{
+        position:absolute;
+        left:20px;
+}
+#reset{
+       display :block;
+       margin:0 auto;
+}
